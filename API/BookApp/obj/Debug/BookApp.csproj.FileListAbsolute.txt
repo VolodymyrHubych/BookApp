@@ -1,0 +1,144 @@
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\csc.exe
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\csc.exe.config
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\csc.rsp
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\csi.exe
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\csi.rsp
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\System.AppContext.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\System.Collections.Immutable.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\System.IO.FileSystem.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\vbc.exe
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\vbc.exe.config
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\vbc.rsp
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\VBCSCompiler.exe
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\roslyn\VBCSCompiler.exe.config
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\BookApp.dll.config
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\BookApp.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\BookApp.pdb
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\EntityFramework.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\EntityFramework.SqlServer.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.Owin.Cors.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.Owin.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.Owin.Security.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Newtonsoft.Json.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Owin.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\System.Net.Http.Formatting.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\System.Web.Cors.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\System.Web.Http.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\System.Web.Http.Owin.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\System.Web.Http.WebHost.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\EntityFramework.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\EntityFramework.SqlServer.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.Owin.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.Owin.Cors.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.Owin.Security.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\System.Web.Http.Owin.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\Newtonsoft.Json.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\System.Net.Http.Formatting.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\System.Web.Http.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\bin\System.Web.Http.WebHost.xml
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\obj\Debug\BookApp.csprojResolveAssemblyReference.cache
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\obj\Debug\BookApp.dll
+c:\users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\obj\Debug\BookApp.pdb
+C:\Users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\obj\Debug\BookApp.Migrations.Init.resources
+C:\Users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\obj\Debug\BookApp.csproj.GenerateResource.Cache
+C:\Users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\obj\Debug\BookApp.Migrations.ChangeBookModel.resources
+C:\Users\volodymyr.hubych\documents\visual studio 2017\Projects\BookApp\BookApp\obj\Debug\BookApp.Migrations.AddUrl.resources
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\csc.exe
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\csc.exe.config
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\csc.rsp
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\csi.exe
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\csi.rsp
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\System.AppContext.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\vbc.exe
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\vbc.exe.config
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\vbc.rsp
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\BookApp.dll.config
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\BookApp.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\BookApp.pdb
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\EntityFramework.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\EntityFramework.SqlServer.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.Owin.Cors.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.Owin.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.Owin.Security.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Newtonsoft.Json.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Owin.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\System.Net.Http.Formatting.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\System.Web.Cors.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\System.Web.Http.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\System.Web.Http.Owin.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\System.Web.Http.WebHost.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\EntityFramework.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\EntityFramework.SqlServer.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.Owin.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.Owin.Cors.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.Owin.Security.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\System.Web.Http.Owin.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\Newtonsoft.Json.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\System.Net.Http.Formatting.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\System.Web.Http.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\bin\System.Web.Http.WebHost.xml
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\obj\Debug\BookApp.Migrations.Init.resources
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\obj\Debug\BookApp.Migrations.ChangeBookModel.resources
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\obj\Debug\BookApp.Migrations.AddUrl.resources
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\obj\Debug\BookApp.csproj.GenerateResource.Cache
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\obj\Debug\BookApp.dll
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\obj\Debug\BookApp.pdb
+C:\Users\volodymyr.hubych\Documents\GitHub\volodymyrh_localproject1\web\BookApp\BookApp\obj\Debug\BookApp.csprojResolveAssemblyReference.cache
