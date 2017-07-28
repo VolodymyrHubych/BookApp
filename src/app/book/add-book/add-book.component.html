@@ -1,0 +1,41 @@
+<div class="col-md-6 col-md-offset-3">
+      <h2>Add Book</h2>
+       <form name="form" (ngSubmit)="f.form.valid && add()" #f="ngForm" novalidate>
+           <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !bookName.valid }">
+            <label for="bookName">Book Name</label>
+            <input type="text" class="form-control" name="bookName" [(ngModel)]="model.bookName" #bookName="ngModel" required/>
+            <div *ngIf=" !bookName.valid && f.submitted" class="help-block">Book Name is required</div>
+        </div>
+
+        <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !author.valid }">
+            <label for="author">Author</label>
+            <input type="text" class="form-control" name="author" [(ngModel)]="model.author"  #author="ngModel" required />
+            <div *ngIf="f.submitted && !author.valid" class="help-block">Author is required</div>
+        </div>
+
+        <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !imageUrl.valid }">
+            <label for="imageUrl">Image Url</label>
+            <input  type="text" class="form-control" name="imageUrl" [(ngModel)]="model.imageUrl"  #imageUrl ="ngModel" required /> 
+            <div *ngIf="f.submitted && !imageUrl.valid" class="help-block">Url is required</div>
+        </div>
+
+        
+        <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !description.valid }">
+            <label for="password">Description</label>
+            <textarea  cols="40" rows="5" type="text" class="form-control" name="description" [(ngModel)]="model.description" #description="ngModel" required minlength="10" ></textarea>
+            <div *ngIf="f.submitted && !description.valid" class="help-block">Minimum Length : 10</div>
+        </div>
+
+       
+
+
+                   
+         <div class="form-group">
+            <button class="btn btn-primary"> Create </button>
+        </div>
+
+            <div   *ngFor="let error of errors" class="alert alert-danger">{{error}}</div>
+      </form>
+</div>
+
+  
