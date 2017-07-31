@@ -3,6 +3,7 @@ import { Http, Headers, RequestOptions } from '@angular/http';
 import { environment } from '../../environments/environment';
 import { Subject, Observable } from 'rxjs';
 import {User} from '../models/user'
+import { Router} from "@angular/router";
 
 
 @Injectable()
@@ -14,7 +15,7 @@ export class AuthService {
  
   public token;
 
-  constructor(private http: Http) { 
+  constructor(private router: Router, private http: Http) { 
      this.isAuthenticated || (this.isAuthenticated = !!this.getToken());
   }
    
@@ -24,35 +25,41 @@ export class AuthService {
     headers.append('Content-Type', 'application/x-www-form-urlencoded');
     let options = new RequestOptions({ headers: headers });
     let body = `grant_type=password&username=${username}&password=${password}`;
-    return this.http.post(this.tokenEndpoint, body, {headers : headers}).map(res => res.json()).toPromise()
-      .then(success => {
-        if(success) {
-          this.setToken(success);       
-          this.isAuthenticated = true;          
-        }
-      });
+    return this.http.post(this.tokenEndpoint, body, {headers : headers}).map(res => {
+      var response = res.json();
+      if (response.error)
+      {
+          throw Observable.throw(response.error_description);  
+      }
+       this.setToken(response);       
+       this.isAuthenticated = true;      
+       return res.json();
+    });
   }
 
   refreshToken() {
 
     let refToken = JSON.parse(localStorage.getItem('token')).refresh;
-    
+
     if (refToken) {
- 
       let headers = new Headers({ 'Content-Type': 'application/x-www-form-urlencoded' });
       let options = new RequestOptions({ headers: headers });
       let body = `grant_type=refresh_token&refresh_token=${refToken}`;
-      this.http.post(this.tokenEndpoint, body, options)
-      .map(res => res.json()).toPromise().then(
-        success => {
-          if(success) {
-            this.setToken(success); 
-            this.isAuthenticated = true;
-          }
-        }).catch(() =>this.logout());
-        
-    } else {
+       this.http.post(this.tokenEndpoint, body, options).map(res => {
+        var response = res.json();
+        if (response.error)
+        {
+            throw Observable.throw(response.error_description);  
+        }
+         
+         return res.json();
+      }).subscribe( (response) => {
+         this.setToken(response);    
+         this.isAuthenticated = true;      
+      }, (error) => {
+        this.router.navigate(['login'])
         this.logout();
+      });
     }
   }
 

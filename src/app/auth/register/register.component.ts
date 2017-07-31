@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import{User} from "../../models/user"
-import { Router} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 import {AuthService} from '../../services/auth.service'
 import { FormsModule }   from '@angular/forms';
 
@@ -11,12 +11,19 @@ import { FormsModule }   from '@angular/forms';
 })
 export class RegisterComponent implements OnInit {
 
-  model: User = new User();
-    errors = [];
-  constructor(private authService : AuthService, private router: Router) { }
+  private model: User = new User();
+  private  errors = [];
+  private  returnUrl: string;
+  constructor(private authService : AuthService, private router: Router, private route : ActivatedRoute) { }
 
   ngOnInit() {
-        this.authService.logout();
+    this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
+        if(this.authService.isAuthenticated) {
+        
+
+        this.router.navigate([this.returnUrl]);
+
+     } ;
   }
 
   sign() {

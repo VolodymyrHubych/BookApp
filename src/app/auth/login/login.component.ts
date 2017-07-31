@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {AuthService} from '../../services/auth.service'
-import { Router} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 import 'rxjs/Rx';
 
 @Component({
@@ -10,20 +10,31 @@ import 'rxjs/Rx';
 })
 export class LoginComponent implements OnInit {
 
-   model: any = {};
-    error = '';
-  constructor(private authService : AuthService,  private router: Router) { }
+   private model: any = {};
+    private error = '';
+    private returnUrl: string;
+     
+  constructor(private authService : AuthService,  private router: Router, private route : ActivatedRoute) { }
 
   ngOnInit() {
-    this.authService.logout();
+    //this.authService.logout();
+     this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
+     if(this.authService.isAuthenticated) {
+       
+
+        this.router.navigate([this.returnUrl]);
+
+     } ;
+      
   }
 
   login() {
     this.authService.login(this.model.username, this.model.password)
-      .then( () => {
-        this.router.navigate([''])
-      })
-      .catch( err => this.error =  'Username or password is incorrect');        
+      .subscribe( (success) => {
+        this.router.navigate([this.returnUrl])
+      }, (response) => {
+        this.error =  response.error;
+      });   
   };
 
 }

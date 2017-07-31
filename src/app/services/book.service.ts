@@ -23,7 +23,15 @@ export class BookService {
       headers.append('Authorization', 'Bearer ' + JSON.parse(localStorage.getItem('token')).token);
       let options = new RequestOptions({ headers: headers });
 
-      return this.http.post(this.Url + 'books/add', book, options).map(res => res.json());
+      return this.http.post(this.Url + 'books/add', book, options).map(res => {
+            let response = res.json();
+
+            if (response.message) {
+                throw Observable.throw(response.message);  
+            } 
+            return response;
+
+       }) ;  
   }
 
   getBook( id : number) {
@@ -55,6 +63,54 @@ export class BookService {
       headers.append('Authorization', 'Bearer ' + JSON.parse(localStorage.getItem('token')).token);
       let options = new RequestOptions({ headers: headers });
        return this.http.get(this.Url + 'books/removeOrder/' + id, options).map(res => res.json());
+  }
+
+  canOrder(id : number) {
+      let headers = new Headers();
+      headers.append('Authorization', 'Bearer ' + JSON.parse(localStorage.getItem('token')).token);
+      let options = new RequestOptions({ headers: headers });
+       return this.http.get(this.Url + 'books/canOrder/' + id, options).map(res => res.json());
+  }
+
+  getOwnBooks() {
+       let headers = new Headers();
+      headers.append('Authorization', 'Bearer ' + JSON.parse(localStorage.getItem('token')).token);
+      let options = new RequestOptions({ headers: headers });
+
+      return this.http.get(this.Url + 'books/mybooks', options).map(res => res.json());
+  }
+
+
+  editBook(book: Book) {
+       let headers = new Headers();
+      headers.append('Authorization', 'Bearer ' + JSON.parse(localStorage.getItem('token')).token);
+      let options = new RequestOptions({ headers: headers });
+
+      return this.http.post(this.Url + 'books/edit', book, options).map(res => {
+            let response = res.json();
+
+            if (response.message) {
+                throw Observable.throw(response.message);  
+            } 
+            return response;
+
+       }) ;  
+
+  }
+
+  rewoveBook(id : number) {
+         let headers = new Headers();
+      headers.append('Authorization', 'Bearer ' + JSON.parse(localStorage.getItem('token')).token);
+      let options = new RequestOptions({ headers: headers });
+       return this.http.get(this.Url + 'books/delete/' + id, options).map(res => res.json());
+  }
+
+  getStatistics() 
+  {
+      let headers = new Headers();
+      headers.append('Authorization', 'Bearer ' + JSON.parse(localStorage.getItem('token')).token);
+      let options = new RequestOptions({ headers: headers });
+       return this.http.get(this.Url + 'books/statistic', options).map(res => res.json());
   }
 
 }

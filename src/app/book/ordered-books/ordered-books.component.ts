@@ -14,7 +14,8 @@ export class OrderedBooksComponent implements OnInit {
 
   constructor(private bookService : BookService, private router: Router) { }
 
-  books : Book[] = []; 
+  private books : Book[] = []; 
+
 
   ngOnInit() {
      this.bookService.getOrderedBooks().subscribe( (data) => {
@@ -32,10 +33,17 @@ export class OrderedBooksComponent implements OnInit {
                 this.books=data;
             });
          }
-         console.log('Ok');
        }
      )
 
+  }
+
+   gotoInfo(id:number) {
+     this.router.navigate(['book/'+id]);
+  }
+
+  gotoHome() {
+    this.router.navigate(['']);
   }
 
 }

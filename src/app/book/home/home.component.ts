@@ -12,10 +12,10 @@ export class HomeComponent implements OnInit {
 
   constructor(private bookService : BookService, private router: Router) { }
 
-  books : Book[] = []; 
+  private books : Book[] = []; 
 
   ngOnInit() {
-     this.bookService.getAllBooks().subscribe( (data) => {
+     this.bookService.getAllBooks().subscribe( (data: Book[]) => {
        this.books=data;
       });
   }

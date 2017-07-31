@@ -20,13 +20,15 @@ import { EqualValidator } from './directives/validate-equal.directive';
 import { AddBookComponent } from './book/add-book/add-book.component';
 import { BookInfoComponent } from './book/book-info/book-info.component';
 import { OrderedBooksComponent } from './book/ordered-books/ordered-books.component';
+import { MyBooksComponent } from './book/my-books/my-books.component';
+import { AccountInformationComponent } from './account/account-information/account-information.component';
 
 
 const appRoutes: Routes =[
     {
        path: 'login',
-        component: LoginComponent, 
-        canActivate: [AnonimGuard]
+        component: LoginComponent 
+        //canActivate: [AnonimGuard]
     },
     {
       path:'',
@@ -41,8 +43,8 @@ const appRoutes: Routes =[
     },
      {
        path: 'sign',
-        component: RegisterComponent, 
-        canActivate: [AnonimGuard]
+        component: RegisterComponent
+        //canActivate: [AnonimGuard]
     },
       { 
          path:'addBook',
@@ -58,6 +60,16 @@ const appRoutes: Routes =[
     {
         path: 'mybooks',
      component: OrderedBooksComponent,
+      canActivate: [AuthGuard]
+    },
+    {
+        path: 'ownbooks',
+     component: MyBooksComponent,
+      canActivate: [AuthGuard]
+    },
+    {
+       path: 'account',
+     component: AccountInformationComponent,
       canActivate: [AuthGuard]
     },
     {
@@ -79,7 +91,9 @@ const appRoutes: Routes =[
     EqualValidator,
     AddBookComponent,
     BookInfoComponent,
-    OrderedBooksComponent
+    OrderedBooksComponent,
+    MyBooksComponent,
+    AccountInformationComponent
     
   ],
   imports: [

@@ -11,8 +11,10 @@ import {BookService} from '../../services/book.service'
 export class BookInfoComponent implements OnInit {
 
 
-  bookId:number;
-  book  : Book = new Book();
+  private bookId:number;
+  private book  : Book = new Book();
+
+    canOrder : boolean;
   
   constructor(private activatedRoute:ActivatedRoute, private router :Router, private bookService: BookService ) { 
      this.bookId = activatedRoute.snapshot.params['id'];
@@ -20,13 +22,15 @@ export class BookInfoComponent implements OnInit {
 
   ngOnInit() {
      this.bookService.getBook(this.bookId).subscribe(
-       (data) => {
-          if(!data) {
+       (resp) => {
+          if(!resp) {
             this.router.navigate(['notfound']);
           } 
-          this.book = data;
-       }
-     )
+          this.book = resp.data;
+          this.canOrder  = resp.canOrder;       }
+     );
+
+    
   }
 
   order() {
@@ -35,10 +39,22 @@ export class BookInfoComponent implements OnInit {
          if (!data) {
               console.log('Fatal error');    
          }
-         this.router.navigate(['']);
+         this.router.navigate(['mybooks']);
 
       }
     )
+  }
+
+  removeOrder() {
+    this.bookService.removeOrder(this.bookId).subscribe(
+       (data) => {
+          if (!data) {
+              console.log('Fatal error');    
+         } else {
+             this.router.navigate(["mybooks"]);
+         }
+       }
+     )
   }
 
 }

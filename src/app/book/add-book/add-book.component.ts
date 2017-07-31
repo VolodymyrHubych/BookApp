@@ -11,8 +11,8 @@ import { Router} from "@angular/router";
 })
 export class AddBookComponent implements OnInit {
 
-  model: Book = new Book();
-    errors = [];  
+  private model: Book = new Book();
+  private errors = [];  
   constructor(private bookService: BookService, private router : Router) { }
 
   ngOnInit() {
@@ -22,9 +22,15 @@ export class AddBookComponent implements OnInit {
 
   add() {
      this.bookService.createBook(this.model).subscribe(
-          () => {
-               this.router.navigate([''])
+          (response) => {
+              this.router.navigate(['']);
+          }, (response) => {
+              this.errors[0] = response.error;
           }
      );
+  }
+
+  gotoOwn() {
+     this.router.navigate(['ownbooks']);
   }
 }

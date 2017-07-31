@@ -1,8 +1,13 @@
 <div class="col-md-12 ">
+<h1>Your orders : </h1>
+<div class="text-center" *ngIf="books.length==0">
+    <h1 > No orders.</h1>
+    <button class="btn btn-primary" (click)= "gotoHome()"> Go to books! </button>
+</div>
 
   <div *ngFor="let book of books" class="text-center col-xs-12 col-sm-6 col-md-3">
       <div  class="item">
-         <img  class="img" [src]="book.imageUrl">
+         <img  (click)="gotoInfo(book.bookId)" class="img" [src]="book.imageUrl">
            <div class="delete" (click)="removeOrder(book.bookId)" >X</div>
       </div>
       
