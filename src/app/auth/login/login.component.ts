@@ -20,8 +20,6 @@ export class LoginComponent implements OnInit {
     //this.authService.logout();
      this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
      if(this.authService.isAuthenticated) {
-       
-
         this.router.navigate([this.returnUrl]);
 
      } ;

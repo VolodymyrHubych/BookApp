@@ -16,7 +16,7 @@ export class AuthService {
   public token;
 
   constructor(private router: Router, private http: Http) { 
-     this.isAuthenticated || (this.isAuthenticated = !!this.getToken());
+     this.isAuthenticated || (this.isAuthenticated = !!JSON.parse(localStorage.getItem('token')));
   }
    
 
@@ -40,7 +40,6 @@ export class AuthService {
   refreshToken() {
 
     let refToken = JSON.parse(localStorage.getItem('token')).refresh;
-
     if (refToken) {
       let headers = new Headers({ 'Content-Type': 'application/x-www-form-urlencoded' });
       let options = new RequestOptions({ headers: headers });
